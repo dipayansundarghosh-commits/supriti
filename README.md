@@ -1043,18 +1043,3 @@
             });
         });
     </script>
-</body>
-</html>tems = document.querySelectorAll('.date-item');
-        dateItems.forEach(item => {
-            item.addEventListener('click', () => {
-                item.style.background = 'linear-gradient(135deg, var(--coral) 0%, var(--soft-red) 100%)';
-                item.style.color = 'white';
-                setTimeout(() => {
-                    item.style.background = 'linear-gradient(135deg, var(--soft-pink) 0%, var(--beige) 100%)';
-                    item.style.color = 'var(--text)';
-                }, 300);
-            });
-        });
-    </script>
-</body>
-</html>
